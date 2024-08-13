@@ -14,7 +14,7 @@ const AddPost = () => {
     const userOptions = users.map((user:any) => (<option key={user.id} value={user.id}>{user.name}</option>))
   return (
     <div>
-        <h2>Add Post</h2>
+        <h2>Drop your post 😁</h2>
         <input type="text" placeholder='Enter Title' value={title} onChange={(e) => setTitle(e.target.value)}/>
         <input type="text" placeholder='Enter Content' value={content} onChange={(e) => setContent(e.target.value)}/>
         <select value={userId} onChange={(e) => setUserId(e.target.value)}>
